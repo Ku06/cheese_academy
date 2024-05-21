@@ -1,0 +1,581 @@
+/* ここから下に記載していく */
+
+/* 文字編集 */
+.yellow-text1{
+    color: #ffd61a; 
+    font-size: 24px;
+    padding-top:60px;
+    padding-bottom:30px
+}
+
+.black-text1{
+    color: #222222; 
+    font-size: 24px;
+}
+
+.black-text2{
+    color: #222222; 
+    font-size: 16px;
+    padding-bottom:60px;
+}
+
+.black-text3{
+    color: #222222; 
+    font-size: 16px;
+    padding-bottom:40px;
+}
+
+.black-text4{
+    color: #222222; 
+    font-size: 16px;
+}
+
+.black-text5{
+    color: #222222; 
+    font-size: 16px;
+    padding-bottom:80px;
+    line-height: 2;
+}
+
+.black-text6{
+    color: #222222; 
+    font-size: 24px;
+    padding-top:60px;
+    padding-bottom:30px
+}
+
+.black-text7{
+    color: #222222; 
+    font-size: 18px;
+    padding-bottom:30px
+}
+
+.black-text8{
+    color: #222222; 
+    font-size: 18px;
+    padding-bottom:60px
+}
+
+.black-text9{
+    color: #222222; 
+    font-size: 18px;
+    padding-bottom:70px
+}
+
+.black-text10{
+    color: #222222; 
+    font-size: 24px;
+    font-weight: bold;
+    padding-top:120px;
+    padding-bottom:40px
+}
+
+
+.black-text11{
+    color: #222222; 
+    font-size: 16px;
+    padding-bottom:120px
+}
+
+.black-text12{
+    color: #222222; 
+    font-size: 16px;
+    padding-top:30px;
+    padding-bottom:24px;
+    text-align: left;
+}
+
+.black-text13{
+    color: #222222; 
+    font-size: 13px;
+    text-align: left;
+    line-height: 2;
+}
+
+.black-text14{
+    color: #222222; 
+    font-size: 24px;
+    padding-top:60px;
+    padding-bottom:30px
+}
+
+.black-text15{
+    color: #222222; 
+    font-size: 16px;
+    text-align: left;
+}
+
+.white-text{
+    color: white; 
+    font-size: 16px;
+    padding-top:30px;
+    padding-bottom:30px;
+    text-align:center;
+}
+
+.white-text1{
+    color: white; 
+    font-size: 40px;
+    padding-bottom:30px;
+    text-align:center;
+    white-space:nowrap
+}
+
+.white-text2{
+    color: white; 
+    font-size: 28px;
+    text-align:center;
+
+}
+
+.white-text3{
+    color: white; 
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+/* レイアウト */
+.field{
+    display:flex;
+}
+
+.center{
+    text-align:center;
+}
+
+.center2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+.field0{
+    object-fit: cover;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.field1{
+    font-size: 21px;
+    display: flex;
+}
+
+.field2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.field3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    column-gap: 30px;
+}
+
+.field4{
+    text-align: right;
+}
+
+.field5{
+    text-align: left;
+}
+
+.box1{
+    font-size: 21px;
+    padding-right:50px;
+    padding-top:50px;
+    padding-bottom:50px;
+    display: flex;
+    
+}
+
+.box2{
+    text-align:center;
+}
+
+.box{
+    position: relative;
+    text-align:center;
+}
+.top1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.top2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.back1{
+    background-color: #707070;
+}
+
+.back2{
+    height: 60px;
+    width: 300px;
+    position: relative;
+}
+
+.back3{
+    background-color: #fafafa;
+    width: 600px;
+}
+
+.back4{
+    background-color: #fafafa;
+    width: 100%;
+}
+
+.back5{
+    width: 328px;
+}
+
+.line{
+    line-height: 2;
+}
+
+.space{
+    padding-bottom:60px;   
+}
+
+.space2{
+    padding-left:50px;        
+
+}
+
+.space3{
+    padding-right:50px;
+    
+}
+
+.space4{
+    margin-top:60px;
+    margin-bottom:60px;
+}
+
+.space5{
+    margin-top:30px;
+    margin-bottom:140px;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.r{
+    text-align: top;
+}
+
+.flex-item {
+    width: 300px;
+}
+
+.joinBtn {
+
+    background-color: gold;
+    border: 2px solid firebrick;
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+  }
+  
+.joinBtn:hover {
+    background-color: bisque;
+}
+
+.joinBtn1{
+    background-color: #ffd61a;
+    border: 2px solid firebrick;
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+  }
+
+  .joinBtn1:hover {
+    background-color: bisque;
+  }
+  
+  a{
+    text-decoration: none;
+    }
+
+
+    /* Google Mapを囲う要素 */
+.map {
+    position: relative;
+    width: 100%;
+    height: 480px;
+  
+  }
+   
+  /* Google Mapのiframe */
+  .map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 480px;
+  }
+
+
+
+  /* チェックボックス02 */
+input[type=checkbox] {
+    display: none;
+}
+.checkbox02 {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 30px;
+    position: relative;
+    width: auto;
+}
+.checkbox02::before {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    content: '';
+    display: block;
+    height: 16px;
+    left: 5px;
+    margin-top: -8px;
+    position: absolute;
+    top: 50%;
+    width: 16px;
+}
+.checkbox02::after {
+    border-right: 6px solid black;
+    border-bottom: 3px solid black;
+    content: '';
+    display: block;
+    height: 20px;
+    left: 7px;
+    margin-top: -16px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    transform: rotate(45deg);
+    width: 9px;
+}
+input[type=checkbox]:checked + .checkbox02::before {
+    border-color: #666;
+}
+input[type=checkbox]:checked + .checkbox02::after {
+    opacity: 1;
+}
+
+.border{
+    border:;
+    color:#bfbfbf;
+    width: 328px;
+    height: 36px;
+}
+
+.table_design04 {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 700px;
+  }
+  .table_design04 th, .table_design04 td {
+    padding: 1em;
+  }
+  .table_design04 th {
+    border-right: 1px solid #4d9bc1;
+    font-weight: bold;
+    text-align: left;
+    width: 20%;
+    min-width: 4em;
+  }
+
+
+
+
+
+.text1{
+    text-align: left;
+    line-height: 24px;
+}
+
+
+.left3{
+    margin-left: 16px;
+}
+
+.left4{
+    margin-left: 16px;
+}
+
+
+
+
+
+.border4{
+    /*コレ*/border-bottom: 1px solid #bfbfbf;
+    padding: 8px;
+    background: #f2f2f2;
+    /*コレ*/border-bottom: 1px solid #bfbfbf;
+        padding: 8px;
+        background: #f2f2f2;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+///試し
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*フォーム/
+  
+  /*デザインcss↓*/
+  .box_con02 {
+    max-width: 900px;
+    margin: 0  auto;
+  }
+  @media only screen and (max-width: 768px) {
+    .box_con02 {
+      width: 95%;
+    }
+  }
+  .box_con02 form {
+    width: 100%;
+  }
+  .box_con02 form table {
+    width: 100%;
+  }
+  .box_con02 form table tr {
+    position: relative;
+  }
+  .box_con02 form table tr:first-child td:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 1px;
+    padding: 1em .5em;
+    border-top: solid 1px  #bfbfbf;
+  }
+  @media only screen and (max-width: 768px) {
+    .box_con02 form table tr:first-child td:before {
+      display: none;
+    }
+  }
+  .box_con02 form table tr th {
+    width: 30%;
+    font-weight: normal;
+    color: black;
+    text-align: left;
+    text-align: top;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: solid 1px #bfbfbf(28, 46, 83, 0.5);
+    border-top: solid 1px #bfbfbf;
+ 
+ 
+  }
+  @media only screen and (max-width: 768px) {
+    .box_con02 form table tr th {
+      text-align: center;
+      width: 100%;
+      display: block;
+      padding: .8em .2em;
+      
+    }
+  }
+  .box_con02 form table tr th span {
+    background: #cd6f55;
+    padding: 0 .3em;
+    color: #fff;
+    margin-left: .5em;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .box_con02 form table tr th:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    border-bottom: solid 1px #bfbfbf;
+    
+  }
+  .box_con02 form table tr td {
+    position: relative;
+    padding: 1em .4em;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    
+  }
+  @media only screen and (max-width: 768px) {
+    .box_con02 form table tr td {
+      padding: 1.5em .5em;
+      display: block;
+      width: 100%;
+    }
+  }
+  .box_con02 form table tr td:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    border-bottom: solid 1px #bfbfbf;
+  }
+  .box_con02 form table tr .box_br {
+    display: block;
+  }
+  .box_con02 form table tr select, .box_con02 form table tr textarea, .box_con02 form table tr .wide {
+    width: 100%;
+    height: 3em;
+    padding: .5em;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .box_con02 form table tr textarea {
+    height: 10em;
+  }
+  
+ 
